@@ -24,20 +24,24 @@ body{
   width: 100%;
 }
 #top-nav ul{
-  text-align: center;
-  height: 44px;
-  line-height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #top-nav ul li{
-  display: inline-block;
-  vertical-align: middle;
+  list-style: none;
+  text-align: center;
+  border-right: solid 1px #fff;
+  padding: 10px 0;
   box-sizing: border-box;
-  border-left: solid 1px #FFF;
-  border-right: solid 1px #FFF;
+  height: 46px;
 }
-#top-nav ul li + li{
-  border-left: 0px;
-  border-right: solid 1px #FFF;
+}
+#top-nav ul li:first-child{
+  border-left: solid 1px #fff;
+}
+#top-nav span{
+  display: block;
 }
 
 li a,.copyright{
@@ -45,7 +49,11 @@ li a,.copyright{
   font-size: 12px;
 }
 #top-nav li a{
-  padding: 13px 10px;
+  display: inline-block;
+  width: 108px;
+  height: 46px;
+  box-sizing: border-box;
+  padding: 5px 10px;
 }
 
 /* ナビゲーション */

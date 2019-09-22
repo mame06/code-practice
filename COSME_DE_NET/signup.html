@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!-- ビューポートの設定 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>お客様情報の入力｜新規会員登録</title>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header id="header">
+      <h1 class="site-width"><a href="index.html"><img src="img/logo01.jpg" alt="COSME DE NET｜人気ブランドコスメが最大75％オフ！"></a></h1>
+      <nav id="top-nav" class="nav-color">
+          <ul>
+              <li><a href="index.html">探す</a></li>
+              <li><a href="#"><span>スキンケア</span><span>基礎化粧品</span></a></li>
+              <li><a href="#">メイクアップ</a></li>
+              <li><a href="#">ヘアケア</a></li>
+              <li><a href="#">ボディケア香水</a></li>
+              <li><a href="#"><span>ナチュラル</span><span>オーガニック</span></a></li>
+              <li><a href="#">全ブランド</a></li>
+              <li><a href="#">セール</a></li>
+              <li><a href="#">お客様サポート</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main class="site-width">
+
+      <!-- 登録フォーム -->
+      <form class="" action="" method="post">
+        <table border="1">
+          <tr>
+            <th>
+              <p>氏名(漢字)<br>(ローマ字でも可)</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <div class="area-msg">(！) 氏名（姓）を入力してください。</div>
+              <p>全角で入力。氏名欄に会社名を入力しないでください。</p>
+              <label>
+                姓
+                <input type="text" name="last-name" value="">
+              </label>
+              <label>
+                名
+                <input type="text" name="first-name" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>氏名(カナ)</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <div class="area-msg"></div>
+              <p>全角カタカナで入力してください。</p>
+              <label>
+                セイ
+                <input type="text" name="last-name" value="" placeholder="(例)ヤマダ">
+              </label>
+              <label>
+                メイ
+                <input type="text" name="first-name" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="gender">性別</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <label>
+                <input type="radio" name="gender" value="female" checked>女性
+              </label>
+              <label>
+                <input type="radio" name="gender" value="male">男性
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>郵便番号</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <div class="area-msg"></div>
+              <p>半角数字、ハイフン無しで入力してください。</p>
+              <label>
+                〒
+                <input type="text" name="zip" value="" maxlength="7">
+              </label>
+              <a href="#">郵便番号がわからない方はこちら</a>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>都道府県</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <div class="area-msg"></div>
+              <select class="" name="prefectures">
+                <option value="Tokyo">東京都</option>
+                <option value="Kanagawa">神奈川県</option>
+                <option value="Shizuoka">静岡県</option
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>住所(市区郡～番地)</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <div class="area-msg"></div>
+              <label>
+                <input type="text" name="address" value="" placeholder="(例)中央区銀座2-12-3">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>建物名・部屋番号</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <label>
+                <div class="area-msg"></div>
+                <input type="text" name="buildding" value="" placeholder="(例)ライトマンション101号室">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>電話番号</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <p>半角数字、ハイフン無しで入力してください。</p>
+              <label>
+                <input type="text" name="phone" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>生年月日</p>
+              <span>任意</span>
+            </th>
+            <td>
+              <div class="area-msg"></div>
+              <p>全角カタカナで入力してください。</p>
+              <label>
+                西暦
+                <input type="text" name="year" value="" placeholder="-">
+                年
+              </label>
+              <label>
+                <select class="" name="month">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                月
+              </label>
+              <label>
+                <select class="" name="day">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                日
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>メールアドレス</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <p>半角数字で入力してください。</p>
+              <label>
+                <input type="text" name="e-mail" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>メールアドレス(確認)</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <p>確認のためコピーせずに上と同じものをご入力ください。</p>
+              <label>
+                <input type="text" name="e-mail_re" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>パスワード</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <p>半角の英字と数字を組み合わせて8文字以上で入力してください。</p>
+              <label>
+                <input type="password" name="pass" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>パスワード(確認)</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <p>確認のため上と同じものをご入力ください。</p>
+              <label>
+                <input type="password" name="pass_re" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>ニックネーム</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <p>ニックネームはクチコミ投稿時に表示されます。</p>
+              <label>
+                <input type="text" name="nickname" value="">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="">肌質</p>
+              <span>必須</span>
+            </th>
+            <td>
+              <label>
+                <input type="radio" name="skin-type" value="normal">普通肌
+              </label>
+              <label>
+                <input type="radio" name="skin-type" value="dry">乾燥肌
+              </label>
+              <label>
+                <input type="radio" name="skin-type" value="oily">脂性肌
+              </label>
+            </td>
+          </tr>
+        </table>
+
+        <!-- メールマガジン設定 -->
+        <section>
+          <h1 class="title">メールマガジン設定</h1>
+          <label><input type="checkbox" name="mail_magazine" value="">メールマガジン: お得情報満載のコスメデネット通信(週1)やブランド新着情報をお届けします。</label>
+          <label><input type="checkbox" name="notice" value="">あなたへのお知らせ: ポイント、キャンペーン（お誕生日キャンペーン等）、お気に入りのお得情報をお届けします。</label>
+        </section>
+
+        <!-- 同意フォーム -->
+        <section>
+          <img src="img/regist_form_ico_01.png" alt="must_read">
+          <h2>必ずお読みください</h2>
+          <p>
+            海外発送商品をお届けする場合は、個人輸入扱いとなりますので必ず個人名・個人宅でご登録頂く必要がございます。<br>
+            勤務先にお荷物のお届けを希望される場合は、ご注文時にお届け先項目で指定・ご記入頂くことが出来ますのでご安心ください。<br>
+            会員登録の氏名・住所は必ず「個人名（フルネーム）」「自宅住所」で登録願います。
+          </p>
+          <label>
+            <input type="checkbox" required name="must_read" value="agreement">
+            登録氏名・住所は「個人名」「自宅」で間違いありません（または自宅兼職場）
+          </label>
+        </section>
+
+        <!-- 決定ボタン -->
+        <section>
+          <p>
+            登録氏名・住所に関する同意事項「必ずお読みください」の内容をお読みいただき、内容に同意の上、下記ボタンを押してください。<br>
+            同意にチェックをしないと確認画面へ進めません。
+          </p>
+          <h1><input type="submit" name="confirm" value="登録氏名・住所の同意をして確認画面へ進む"></h1>
+        </section>
+      </form>
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer" class="nav-color">
+      <div class="site-width footer-wrap">
+        <nav id="footer-nav">
+          <ul>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">プライバシーポリシー</a></li>
+            <li><a href="#">ご利用規約</a></li>
+            <li><a href="#">サイトマップ</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">
+          Copyright &copy;  2003-2019 Cosme de Net Co. Ltd. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script>
+      $(function(){
+        var $ftr = $('#footer');
+        if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){
+          $ftr.attr({'style': 'position:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) +'px;' });
+        }
+      });
+    </script>
+  </body>
+</html>

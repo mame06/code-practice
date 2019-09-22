@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Meiryo", "メイリオ", "Hiragino Kaku Gothic Pro W3", "ヒラ ギノ角ゴ Pro W3", Arial, Helvetica, "MS PGothic", "MS Pゴシック", sans-serif;
+}
+
+/* コンテンツ横幅 */
+.site-width{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+
+
+/* ナビゲーション */
+.nav-color{
+  background-color: #6D5052;
+}
+/* display:inline-brock */
+#top-nav{
+  width: 100%;
+}
+#top-nav ul{
+  text-align: center;
+  height: 44px;
+  line-height: 44px;
+}
+#top-nav ul li{
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border-left: solid 1px #FFF;
+  border-right: solid 1px #FFF;
+}
+#top-nav ul li + li{
+  border-left: 0px;
+  border-right: solid 1px #FFF;
+}
+
+li a,.copyright{
+  color: #fff;
+  font-size: 12px;
+}
+#top-nav li a{
+  padding: 13px 10px;
+}
+
+/* ナビゲーション */
+/* display:flex */
+#footer-nav{
+
+}
+#footer-nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+#footer-nav ul li{
+  list-style: none;
+  border-right: solid 1px #FFF;
+  /* 棒の長さが気に食わない、liの高さが自動的に決まるのが気に食わない */
+  /* height: 18px; 文字の大きさに合わせようとしても位置がずれるので不可 */
+}
+#footer-nav ul li a{
+  padding: 5px 10px;
+}
+#footer-nav ul li:last-child{
+  border-right: 0;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+

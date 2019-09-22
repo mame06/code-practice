@@ -24,36 +24,26 @@ body{
   width: 100%;
 }
 #top-nav ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
 }
 #top-nav ul li{
-  list-style: none;
-  text-align: center;
-  border-right: solid 1px #fff;
-  padding: 10px 0;
-  box-sizing: border-box;
-  height: 46px;
-}
+  display: inline-block;
 }
 #top-nav ul li:first-child{
-  border-left: solid 1px #fff;
+
 }
-#top-nav span{
-  display: block;
+#top-nav li a{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
 }
+
+
 
 li a,.copyright{
   color: #fff;
   font-size: 12px;
-}
-#top-nav li a{
-  display: inline-block;
-  width: 108px;
-  height: 46px;
-  box-sizing: border-box;
-  padding: 5px 10px;
 }
 
 /* ナビゲーション */

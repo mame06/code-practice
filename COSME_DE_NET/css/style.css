@@ -5,46 +5,80 @@ body{
   padding: 0;
   font-family: "Meiryo", "メイリオ", "Hiragino Kaku Gothic Pro W3", "ヒラ ギノ角ゴ Pro W3", Arial, Helvetica, "MS PGothic", "MS Pゴシック", sans-serif;
 }
+p{
+  font-size: 12px;
+}
 
 /* コンテンツ横幅 */
 .site-width{
-  max-width: 980px;
+  width: 980px;
   margin: 0 auto;
 }
 
 /* ヘッダー */
+header img{
+  margin: 10px 0 0;
+}
 
 
 /* ナビゲーション */
 .nav-color{
   background-color: #6D5052;
 }
-/* display:inline-brock */
-#top-nav{
-  width: 100%;
-}
+/* display:flex */
 #top-nav ul{
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
 }
 #top-nav ul li{
-  display: inline-block;
+  list-style: none;
+  text-align: center;
+  border-left: solid 1px #fff;
+  border-right: solid 1px #fff;
+  flex-grow: 1;
+  /* 線の中を等間隔に配置する */
 }
-#top-nav ul li:first-child{
-
+#top-nav ul li + li{
+  border-left: 0;
+  border-right: solid 1px #fff;
 }
 #top-nav li a{
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  padding: 10px;
+  padding: 8px 22px;
+  display: inline-block;
+  text-decoration: none;
 }
-
-
 
 li a,.copyright{
   color: #fff;
   font-size: 12px;
 }
+
+
+/* display: inline-block; */
+/* vを消すと変更される */
+#top-na ul{
+  text-align: center;
+  padding-left: 0;
+}
+#top-na ul li{
+  display: inline-block;
+  vertical-align: middle;
+  border-left: solid 1px #FFF;
+  border-right: solid 1px #FFF;
+}
+#top-na ul li + li{
+  border-left: 0;
+  border-right: solid 1px #fff;
+}
+#top-na li a{
+  padding: 8px 22px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
 
 /* ナビゲーション */
 /* display:flex */
@@ -74,5 +108,138 @@ li a,.copyright{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/* メインコンテンツ */
+.main-title{
+  background: #f3f3f3;
+  border-left: solid 8px #c4003a;
+  padding: 30px;
+  font-size: 26px;
+}
+
+/* 登録フォーム */
+table{
+  width: 100%;
+  border-collapse: collapse
+}
+th,td{
+  border: solid 1px #ddd;
+  text-align: left;
+
+}
+th{
+  background: #EAEAEA;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+th p{
+  font-size: 14px;
+  padding: 20px 10px;
+
+}
+th span{
+  display: inline-block;
+  background: #D21E36;
+  height: fit-content;
+  padding: 3px 8px;
+  margin: 0 10px;
+  font-size: 12px;
+  color: #fff;
+}
+.optional{
+  background: rgb(237, 172, 26);
+}
+td{
+  font-size: 12px;
+  padding: 10px 15px;
+}
+input[type="text"]{
+  padding: 5px 3px;
+  font-size: 12px;
+}
+input[type="email"],input[type="password"]{
+  padding: 3px;
+  font-size: 12px;
+}
+input[type="number"]{
+  width: 6em;
+}
+input[name="address"],input[name="buildding"]{
+  width: 100%;
+  box-sizing: border-box;
+}
+input[name="last-name"],input[name="first-name"]{
+  width: 10em;
+}
+select[name="prefectures"]{
+  padding: 5px;
+}
+
+/* メールマガジン設定 */
+.sub-title{
+  font-size: 17px;
+  border-bottom: dotted 1px #000;
+  padding-bottom: 5px;
+}
+.sub-title span{
+  border-left: solid 8px #c4003a;
+  padding-left: 10px;
+
+}
+.mail_magazine label{
+  font-size: 12px;
+}
+.mail_magazine label span{
+  font-weight: bold;
+}
+
+/* 同意フォーム */
+.must_read{
+  border: dotted 1px #C5303B;
+  background: #FDF4F5;
+  padding: 12px 18px;
+  margin: 15px 0;
+}
+.must_read h2{
+  color: #c5303b;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.must_read img{
+  margin-right: 3px;
+  padding: 1px;
+  vertical-align: bottom;
+}
+.must_read p{
+  margin: 0 0 5px 0;
+}
+.must_read label{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* 決定ボタン */
+.confirm{
+  background: #F7F7F7;
+  border: solid 1px #e7e7e7;
+  padding: 10px;
+  margin: 30px 0 50px;
+}
+
+.confirm h1{
+  font-size: 12px;
+  font-weight: normal;
+  padding: 12px 10px 0 18px;
+}
+.confirm p{
+  text-align: center;
+  margin-top: 0;
+}
+.confirm input{
+  padding: 10px 15px;
+  font-weight: bold;
 }
 

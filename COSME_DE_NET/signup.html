@@ -31,12 +31,14 @@
     <main class="site-width">
 
       <!-- 登録フォーム -->
+      <h1 class="main-title">新規会員登録</h1>
+
       <form class="" action="" method="post">
-        <table border="1">
+        <table>
           <tr>
             <th>
               <p>氏名(漢字)<br>(ローマ字でも可)</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <div class="area-msg">(！) 氏名（姓）を入力してください。</div>
@@ -54,7 +56,7 @@
           <tr>
             <th>
               <p>氏名(カナ)</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <div class="area-msg"></div>
@@ -72,7 +74,7 @@
           <tr>
             <th>
               <p class="gender">性別</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <label>
@@ -86,7 +88,7 @@
           <tr>
             <th>
               <p>郵便番号</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <div class="area-msg"></div>
@@ -101,11 +103,11 @@
           <tr>
             <th>
               <p>都道府県</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <div class="area-msg"></div>
-              <select class="" name="prefectures">
+              <select name="prefectures">
                 <option value="Tokyo">東京都</option>
                 <option value="Kanagawa">神奈川県</option>
                 <option value="Shizuoka">静岡県</option
@@ -115,7 +117,7 @@
           <tr>
             <th>
               <p>住所(市区郡～番地)</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <div class="area-msg"></div>
@@ -127,7 +129,7 @@
           <tr>
             <th>
               <p>建物名・部屋番号</p>
-              <span>必須</span>
+              <span class="optional">任 意</span>
             </th>
             <td>
               <label>
@@ -139,7 +141,7 @@
           <tr>
             <th>
               <p>電話番号</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <p>半角数字、ハイフン無しで入力してください。</p>
@@ -151,14 +153,14 @@
           <tr>
             <th>
               <p>生年月日</p>
-              <span>任意</span>
+              <span class="optional">任 意</span>
             </th>
             <td>
               <div class="area-msg"></div>
               <p>全角カタカナで入力してください。</p>
               <label>
                 西暦
-                <input type="text" name="year" value="" placeholder="-">
+                <input type="number" name="year" value="" placeholder="-">
                 年
               </label>
               <label>
@@ -182,31 +184,31 @@
           <tr>
             <th>
               <p>メールアドレス</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <p>半角数字で入力してください。</p>
               <label>
-                <input type="text" name="e-mail" value="">
+                <input type="emai" name="e-mail" value="">
               </label>
             </td>
           </tr>
           <tr>
             <th>
               <p>メールアドレス(確認)</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <p>確認のためコピーせずに上と同じものをご入力ください。</p>
               <label>
-                <input type="text" name="e-mail_re" value="">
+                <input type="email" name="e-mail_re" value="">
               </label>
             </td>
           </tr>
           <tr>
             <th>
               <p>パスワード</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <p>半角の英字と数字を組み合わせて8文字以上で入力してください。</p>
@@ -218,7 +220,7 @@
           <tr>
             <th>
               <p>パスワード(確認)</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <p>確認のため上と同じものをご入力ください。</p>
@@ -230,7 +232,7 @@
           <tr>
             <th>
               <p>ニックネーム</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <p>ニックネームはクチコミ投稿時に表示されます。</p>
@@ -242,7 +244,7 @@
           <tr>
             <th>
               <p class="">肌質</p>
-              <span>必須</span>
+              <span>必 須</span>
             </th>
             <td>
               <label>
@@ -259,16 +261,15 @@
         </table>
 
         <!-- メールマガジン設定 -->
-        <section>
-          <h1 class="title">メールマガジン設定</h1>
-          <label><input type="checkbox" name="mail_magazine" value="">メールマガジン: お得情報満載のコスメデネット通信(週1)やブランド新着情報をお届けします。</label>
-          <label><input type="checkbox" name="notice" value="">あなたへのお知らせ: ポイント、キャンペーン（お誕生日キャンペーン等）、お気に入りのお得情報をお届けします。</label>
+        <section class="mail_magazine">
+          <h1 class="sub-title"><span>メールマガジン設定</span></h1>
+          <label><input type="checkbox" name="mail_magazine" value=""><span>メールマガジン: </span>お得情報満載のコスメデネット通信(週1)やブランド新着情報をお届けします。</label><br>
+          <label><input type="checkbox" name="notice" value=""><span>あなたへのお知らせ: </span>ポイント、キャンペーン（お誕生日キャンペーン等）、お気に入りのお得情報をお届けします。</label>
         </section>
 
         <!-- 同意フォーム -->
-        <section>
-          <img src="img/regist_form_ico_01.png" alt="must_read">
-          <h2>必ずお読みください</h2>
+        <section class="must_read">
+          <h2><img src="img/regist_form_ico_01.png" alt="must_read">必ずお読みください</h2>
           <p>
             海外発送商品をお届けする場合は、個人輸入扱いとなりますので必ず個人名・個人宅でご登録頂く必要がございます。<br>
             勤務先にお荷物のお届けを希望される場合は、ご注文時にお届け先項目で指定・ご記入頂くことが出来ますのでご安心ください。<br>
@@ -281,12 +282,12 @@
         </section>
 
         <!-- 決定ボタン -->
-        <section>
-          <p>
+        <section class="confirm">
+          <h1>
             登録氏名・住所に関する同意事項「必ずお読みください」の内容をお読みいただき、内容に同意の上、下記ボタンを押してください。<br>
-            同意にチェックをしないと確認画面へ進めません。
-          </p>
-          <h1><input type="submit" name="confirm" value="登録氏名・住所の同意をして確認画面へ進む"></h1>
+            同意にチェックをしないと確認画面へ進めません。<br>
+          </h1>
+          <p><input type="submit" name="confirm" value="登録氏名・住所の同意をして確認画面へ進む"></p>
         </section>
       </form>
     </main>

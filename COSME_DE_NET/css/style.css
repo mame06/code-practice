@@ -94,7 +94,7 @@ li a,.copyright{
 #footer-nav ul li{
   list-style: none;
   border-right: solid 1px #FFF;
-  /* 棒の長さが気に食わない、liの高さが自動的に決まるのが気に食わない */
+  /* 棒の長さが気に食わない,liの高さが自動的に決まるのが気に食わない */
   /* height: 18px; 文字の大きさに合わせようとしても位置がずれるので不可 */
 }
 #footer-nav ul li a{
@@ -176,6 +176,10 @@ input[name="last-name"],input[name="first-name"]{
 }
 select[name="prefectures"]{
   padding: 5px;
+}
+.cursor{
+  cursor: pointer;
+  cursor: hand;
 }
 
 /* メールマガジン設定 */

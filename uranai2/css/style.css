@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Meiryo", "メイリオ", "Hiragino Kaku Gothic Pro W3", "ヒラ ギノ角ゴ Pro W3", Arial, Helvetica, "MS PGothic", "MS Pゴシック", sans-serif;
+}
+label{
+	cursor:pointer;
+}
+button,p{
+  margin: 10px 0;
+}
+/* コンテンツ横幅 */
+.site-width{
+  max-width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+table{
+  margin: 30px auto;
+}
+span{
+  display: inline-block;
+  border: solid 1px #8c8594;
+  padding: 3px;
+}
+div{
+  margin: 10px;
+}
+.err{
+  color: #f01e1e;
+  font-size: 12px;
+}
+.err_style{
+  background-color: #f4b9a3;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!-- ビューポートの設定 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>うらない</title>
+  </head>
+  <body>
+
+    <main>
+      <section id="calamity_data" class="site-width">
+
+      </section>
+
+      <!-- 入力欄 -->
+      <section id="input_area" class="site-width">
+        <div class="name_area">
+          <div id="err_name" class="err" style="display:none;">名前書けよ！</div>
+          <label>
+            名前：
+            <input type="text" id="in_name" placeholder="例：山田太郎">
+          </label>
+        </div>
+        <div class="birthday_area">
+          <div id="err_birthday" class="err" style="display:none;">生年月日書こうぜ！</div>
+          <label>
+            生年月日：
+            <input type="text" id="in_birthday" placeholder="例：6/21">
+          </label>
+        </div>
+        <button type="button" id="input_btn">入力できたら押す</button>
+
+      </section>
+
+
+      <!-- 占い -->
+      <section id="fortune_area" class="site-width" style="display:none;">
+        <button type="button" id="back_btn">入力画面に戻る</button>
+        <div id="out_area">
+
+        </div>
+        <div id="fortune_text">
+
+        </div>
+        <button id="start_btn" type="button" name="start">スタート</button>
+      </section>
+
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

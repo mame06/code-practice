@@ -1,0 +1,15 @@
+[12-Oct-2019 08:49:24 Asia/Tokyo] PHP Notice:  Undefined index: fID in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 36
+[12-Oct-2019 08:49:24 Asia/Tokyo] PHP Notice:  Undefined index: email in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 37
+[12-Oct-2019 08:50:59 Asia/Tokyo] PHP Notice:  Undefined index: jsonData in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 36
+[12-Oct-2019 08:51:04 Asia/Tokyo] PHP Notice:  Undefined index: jsonData in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 36
+[12-Oct-2019 08:52:42 Asia/Tokyo] PHP Notice:  Undefined index: jsonData in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 36
+[12-Oct-2019 08:55:35 Asia/Tokyo] PHP Notice:  Undefined variable: email in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 68
+[12-Oct-2019 08:55:35 Asia/Tokyo] PHP Notice:  Array to string conversion in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 72
+[12-Oct-2019 08:57:57 Asia/Tokyo] PHP Notice:  Undefined variable: email in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 68
+[12-Oct-2019 08:57:57 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 74
+[14-Oct-2019 13:33:32 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function h() in C:\xampp\htdocs\login_Ajax\signup.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\login_Ajax\signup.php on line 26
+[14-Oct-2019 21:19:32 Asia/Tokyo] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 64
+[14-Oct-2019 21:19:32 Asia/Tokyo] PHP Notice:  Array to string conversion in C:\xampp\htdocs\login_Ajax\test_ajax.php on line 64

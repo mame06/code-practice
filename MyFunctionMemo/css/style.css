@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Meiryo", "メイリオ", "Hiragino Kaku Gothic Pro W3", "ヒラ ギノ角ゴ Pro W3", Arial, Helvetica, "MS PGothic", "MS Pゴシック", sans-serif;
+  text-align: center;
+}
+p{
+  font-size: 12px;
+}
+
+/* コンテンツ横幅 */
+.site-width{
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header{
+  margin-bottom: 50px;
+}
+
+
+
+/* フッター */
+footer{
+}
+
+
+
+/* ナビゲーション */
+.nav-color{
+  background-color: #6D5052;
+}
+/* display:flex */
+#top-nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+#top-nav ul li{
+  list-style: none;
+  text-align: center;
+}
+#top-nav li a{
+  padding: 8px 22px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+li a,.copyright{
+  color: #000;
+  font-size: 12px;
+}
+
+
+
+/* display: inline-block; */
+/* vを消すと変更される */
+#top-na ul{
+  text-align: center;
+  padding-left: 0;
+}
+#top-na ul li{
+  display: inline-block;
+  vertical-align: middle;
+  border-left: solid 1px #FFF;
+  border-right: solid 1px #FFF;
+}
+#top-na ul li + li{
+  border-left: 0;
+  border-right: solid 1px #fff;
+}
+#top-na li a{
+  padding: 8px 22px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+/* フッター */
+footer p{
+  text-align: center;
+}
+
+
+/* メインコンテンツ */
+form{
+  margin: 30px 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,1708 @@
+[28-Oct-2019 12:39:05 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 12:39:05 Asia/Tokyo] デバッグ：データの中身は：
+[28-Oct-2019 12:41:25 Asia/Tokyo] デバッグ：データの中身は：
+[28-Oct-2019 12:41:58 Asia/Tokyo] デバッグ：データの中身は：
+[28-Oct-2019 12:43:20 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:45:39 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:45:39 Asia/Tokyo] PHP Notice:  Undefined variable: loginid in C:\xampp\htdocs\pra\ka_enq\login.php on line 19
+[28-Oct-2019 12:45:39 Asia/Tokyo] PHP Notice:  Undefined variable: loginid in C:\xampp\htdocs\pra\ka_enq\login.php on line 23
+[28-Oct-2019 12:49:44 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:49:46 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:50:23 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:51:18 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:51:40 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:52:43 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:54:12 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:54:15 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:54:15 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 12:55:16 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:55:18 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 12:55:18 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 12:55:18 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 12:57:50 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 12:57:50 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572234918
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:18:00 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:18:00 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572235070
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:18:03 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:18:03 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572236280
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:18:03 Asia/Tokyo] PHP Notice:  Undefined index: que1 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 12
+[28-Oct-2019 13:18:03 Asia/Tokyo] PHP Notice:  Undefined index: que2 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 13
+[28-Oct-2019 13:18:03 Asia/Tokyo] PHP Notice:  Undefined index: que3 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 14
+[28-Oct-2019 13:18:03 Asia/Tokyo] エラー発生：SQLSTATE[23502]: Not null violation: 7 ERROR:  列"userid"内のNULL値はNOT NULL制約違反です
+DETAIL:  失敗した行は(1, null, null, null, null, 2019-10-28 13:18:03, null, 1)を含みます
+[28-Oct-2019 13:19:37 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:19:37 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572236283
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:19:40 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:19:40 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572236377
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:19:40 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:19:40 Asia/Tokyo] PHP Notice:  Undefined index: que1 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 12
+[28-Oct-2019 13:19:40 Asia/Tokyo] PHP Notice:  Undefined index: que2 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 13
+[28-Oct-2019 13:19:40 Asia/Tokyo] PHP Notice:  Undefined index: que3 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 14
+[28-Oct-2019 13:19:40 Asia/Tokyo] エラー発生：SQLSTATE[23502]: Not null violation: 7 ERROR:  列"userid"内のNULL値はNOT NULL制約違反です
+DETAIL:  失敗した行は(2, null, null, null, null, 2019-10-28 13:19:40, null, 1)を含みます
+[28-Oct-2019 13:24:33 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:24:33 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572236380
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:24:33 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:24:33 Asia/Tokyo] PHP Notice:  Undefined index: que2 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 13
+[28-Oct-2019 13:24:33 Asia/Tokyo] PHP Notice:  Undefined index: que3 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 14
+[28-Oct-2019 13:24:33 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 13:24:44 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:24:44 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572236673
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:36:54 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:36:54 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572236684
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:36:57 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:36:57 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237414
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:36:57 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:36:57 Asia/Tokyo] PHP Notice:  Undefined index: que2 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 22
+[28-Oct-2019 13:36:57 Asia/Tokyo] PHP Notice:  Undefined index: que3 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 23
+[28-Oct-2019 13:37:15 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:37:15 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237417
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:37:17 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:37:17 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237435
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:37:17 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:41:18 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:41:18 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237437
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:41:21 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:41:21 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237678
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:41:21 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:43:42 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:43:42 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237681
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:43:43 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:43:43 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237822
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:43:43 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:45:43 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:45:43 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237823
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:45:46 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:45:46 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237943
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:45:46 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:47:49 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:47:49 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572237946
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:47:55 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:47:55 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572238069
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:47:56 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:47:56 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572238075
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:47:56 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 13:51:01 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:51:01 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572238076
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:51:01 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function getErrRadioClass() in C:\xampp\htdocs\pra\ka_enq\enquete.php:70
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 70
+[28-Oct-2019 13:53:56 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 13:53:56 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572238261
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 13:53:56 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function getErrRadioClass() in C:\xampp\htdocs\pra\ka_enq\enquete.php:70
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 70
+[28-Oct-2019 14:02:36 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:02:36 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572238436
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:02:41 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:02:41 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572238956
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:02:41 Asia/Tokyo] PHP Notice:  Undefined variable: que1 in C:\xampp\htdocs\pra\ka_enq\enquete.php on line 22
+[28-Oct-2019 14:02:41 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:07:44 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:07:44 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572238961
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:07:46 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:07:46 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239264
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:07:46 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:08:26 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:08:26 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239266
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:08:28 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:08:28 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239306
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:08:28 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:09:20 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:09:20 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239308
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:09:22 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:09:22 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239360
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:09:22 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:09:36 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:09:36 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239362
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:09:36 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an1
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:09:37 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:09:42 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:09:42 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239376
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:11:23 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:11:24 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239382
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:11:58 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:11:58 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239484
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:12:19 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:12:19 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239518
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:12:19 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an1
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:12:19 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:14:56 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:14:56 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239539
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:15:02 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:15:02 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:15:05 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:15:05 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:15:05 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:15:05 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239705
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:15:11 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:15:11 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239705
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:15:11 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que2] => an2
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:15:11 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:15:11 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:15:11 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572239711
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:20:09 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:20:09 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:20:11 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:20:11 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:20:11 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:20:11 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240011
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:20:13 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:20:13 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240011
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:20:13 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:21:50 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:21:50 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240013
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:21:55 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:21:55 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240110
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:21:55 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que2] => an1
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:21:56 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:21:56 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:21:56 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240115
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:21:57 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:21:57 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:24:37 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:24:40 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:24:40 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:24:40 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:24:40 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240280
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:24:45 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:24:45 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240280
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:24:45 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:24:45 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:24:45 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:24:45 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240285
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:25:42 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:25:42 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:25:43 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:25:43 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:25:43 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:25:43 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240343
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:25:48 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:25:48 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240343
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:25:48 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:25:48 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:25:48 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:25:48 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:25:48 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240348
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:25:50 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:25:50 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:28:52 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:28:52 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:28:52 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:28:52 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240532
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:28:55 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:28:55 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240532
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:28:55 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:28:55 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:29:55 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:29:55 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240535
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:29:58 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:29:58 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240595
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:29:58 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:29:58 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:30:01 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:30:01 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240598
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:30:03 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:30:03 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240601
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:30:03 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:30:03 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:37:42 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:37:42 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572240603
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:37:44 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:37:44 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241062
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:37:44 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:37:44 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:37:44 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:37:44 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:37:44 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241064
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:39:24 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:39:24 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:39:25 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:39:25 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:39:25 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:39:25 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241165
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:39:28 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:39:28 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241165
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:39:28 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:39:28 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:39:28 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:39:28 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:39:28 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241168
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:40:36 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:40:36 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:40:38 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:40:38 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:40:38 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:40:38 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241238
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:40:43 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:40:43 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241238
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:40:43 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:40:43 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:40:43 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:40:43 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:40:43 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241243
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:42:07 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:42:07 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:42:08 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:42:08 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:42:08 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:42:08 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241328
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:42:12 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:42:12 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241328
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:42:12 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:42:12 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:42:12 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:42:12 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:42:12 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241332
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:42:14 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:42:14 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:42:15 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:42:15 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:42:15 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:42:15 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241335
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:42:17 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:42:17 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241335
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:42:17 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:42:17 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:42:17 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:42:17 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:42:17 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241337
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:44:07 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:44:07 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:44:08 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:44:08 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:44:08 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:44:08 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241448
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:44:10 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:44:10 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241448
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:44:10 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:44:10 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:44:51 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:44:51 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241450
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:44:51 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:44:51 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:44:57 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:44:57 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241491
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:44:57 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:44:57 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an1
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:44:57 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:44:57 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:44:57 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241497
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:47:07 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:47:07 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:47:09 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:47:09 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:47:09 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:47:09 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241629
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:47:11 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:47:11 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241629
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:47:11 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:47:11 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:48:31 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:48:31 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241631
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:48:34 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:48:34 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241711
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:48:34 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:48:34 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:48:41 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:48:41 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241714
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:48:41 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 14:48:41 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:48:44 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:48:44 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241721
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:48:44 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:48:44 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:48:50 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:48:50 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241724
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:48:50 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:48:50 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an1
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:48:50 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 14:48:50 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:48:50 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241730
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:48:52 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 14:48:52 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:52:30 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 14:52:30 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 14:52:30 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:52:30 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241950
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:57:26 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:57:26 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572241950
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:57:34 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:57:34 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242246
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:57:34 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:57:34 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:58:12 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:12 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242254
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:18 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:18 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242292
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:18 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:58:18 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:58:23 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:23 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242298
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:23 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:58:23 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an3
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:58:27 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:27 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242303
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:27 Asia/Tokyo] デバッグ：$que1は：an3
+[28-Oct-2019 14:58:27 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an3
+    [que2] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:58:33 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:33 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242307
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:33 Asia/Tokyo] デバッグ：$que1は：an2
+[28-Oct-2019 14:58:33 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que2] => an4
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:58:38 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:38 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242313
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:38 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:58:38 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:58:51 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:51 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242318
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:51 Asia/Tokyo] デバッグ：$que1は：an2
+[28-Oct-2019 14:58:51 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:58:56 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:58:56 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242331
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:58:56 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:58:56 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:59:10 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:59:10 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242336
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:59:10 Asia/Tokyo] デバッグ：$que1は：an2
+[28-Oct-2019 14:59:10 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que2] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 14:59:14 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 14:59:14 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242350
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 14:59:14 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 14:59:14 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:06:37 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:06:37 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242354
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:06:41 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:06:41 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242797
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:06:41 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 15:06:41 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que2] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:06:44 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:06:44 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242801
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:06:44 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 15:06:44 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que2] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:06:48 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:06:48 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242804
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:06:48 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 15:06:48 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que2] => an3
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:09:35 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:09:35 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242808
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:09:39 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:09:39 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242975
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:09:39 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:09:39 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an4
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:09:49 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:09:49 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242979
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:09:49 Asia/Tokyo] デバッグ：$que1は：an2
+[28-Oct-2019 15:09:49 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que2] => an2
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:09:49 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 15:09:49 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:09:49 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572242989
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:09:51 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 15:09:51 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:11:10 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:11:10 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 15:11:10 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:10 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243070
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:15 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:15 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243070
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:15 Asia/Tokyo] デバッグ：$que1は：an2
+[28-Oct-2019 15:11:15 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que2] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:18 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:18 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243075
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:18 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:11:18 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:23 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:23 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243078
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:23 Asia/Tokyo] デバッグ：$que1は：an3
+[28-Oct-2019 15:11:23 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an3
+    [que2] => an4
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:27 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:27 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243083
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:27 Asia/Tokyo] デバッグ：$que1は：an3
+[28-Oct-2019 15:11:27 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an3
+    [que2] => an4
+    [que3] => an4
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:27 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 15:11:27 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:27 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243087
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:29 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 15:11:29 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:11:30 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:11:30 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0002
+    [loginid] => kinoshita_keisuke@example.com
+    [password] => a_QzpSZ9
+)
+
+[28-Oct-2019 15:11:30 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:30 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243090
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:36 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:36 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243090
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:36 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:11:36 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:39 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:39 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243096
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:39 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:11:39 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que3] => an2
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:41 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:41 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243099
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:41 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:11:41 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que3] => an3
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:43 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:43 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243101
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:43 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:11:43 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que3] => an4
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:46 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:46 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243103
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:46 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:11:46 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an2
+    [que3] => an4
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:11:46 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 15:11:46 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:11:46 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243106
+    [uID] => USER0002
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:11:48 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 15:11:48 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:18:25 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:18:25 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:18:47 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:18:47 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:19:02 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:19:02 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:19:36 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:19:37 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0004
+    [loginid] => tanaka_mika@example.com
+    [password] => FC4mRkUk
+)
+
+[28-Oct-2019 15:19:37 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:19:37 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243577
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:19:44 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:19:44 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243577
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:19:44 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:19:44 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an5
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:19:50 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:19:50 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243584
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:19:50 Asia/Tokyo] デバッグ：$que1は：an1
+[28-Oct-2019 15:19:50 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an1
+    [que2] => an5
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:19:50 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 15:19:50 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:19:50 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243590
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:19:53 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 15:19:53 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:23:00 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです
+[28-Oct-2019 15:23:00 Asia/Tokyo] デバッグ：$resultの中身は：Array
+(
+    [id] => USER0004
+    [loginid] => tanaka_mika@example.com
+    [password] => FC4mRkUk
+)
+
+[28-Oct-2019 15:23:00 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:23:00 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243780
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:23:02 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:23:02 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243780
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:23:02 Asia/Tokyo] デバッグ：$que1は：
+[28-Oct-2019 15:23:02 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:23:08 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:23:08 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243782
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:23:08 Asia/Tokyo] デバッグ：$que1は：an2
+[28-Oct-2019 15:23:08 Asia/Tokyo] デバッグ：$_POSTの中身は：Array
+(
+    [que1] => an2
+    [que2] => an4
+    [que3] => an1
+    [submit] => 回答内容を送信
+)
+
+[28-Oct-2019 15:23:08 Asia/Tokyo] デバッグ：enquete.php:アンケート送信できました
+[28-Oct-2019 15:23:08 Asia/Tokyo] デバッグ：auth.php:ログインユーザーです
+[28-Oct-2019 15:23:08 Asia/Tokyo] デバッグ：$_SESSIONの中身は：Array
+(
+    [login_date] => 1572243788
+    [uID] => USER0004
+    [login_limit] => 3600
+)
+
+[28-Oct-2019 15:23:10 Asia/Tokyo] デバッグ：logout.php:ログアウトしました。
+[28-Oct-2019 15:23:10 Asia/Tokyo] デバッグ：auth.php:未ログインユーザーです

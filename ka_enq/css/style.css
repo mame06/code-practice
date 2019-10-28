@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Meiryo", "メイリオ", "Hiragino Kaku Gothic Pro W3", "ヒラ ギノ角ゴ Pro W3", Arial, Helvetica, "MS PGothic", "MS Pゴシック", sans-serif;
+  text-align: center;
+}
+p{
+  font-size: 12px;
+}
+
+/* コンテンツ横幅 */
+.site-width{
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header{
+  margin-bottom: 50px;
+}
+
+
+
+/* フッター */
+footer{
+}
+
+
+
+/* ナビゲーション */
+.nav-color{
+  background-color: #6D5052;
+}
+/* display:flex */
+#top-nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  width: 70%;
+  margin: 0 auto;
+}
+#top-nav ul li{
+  list-style: none;
+  text-align: center;
+}
+#top-nav li a{
+  padding: 8px 22px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+li a,.copyright{
+  color: #000;
+  font-size: 12px;
+}
+
+
+
+/* display: inline-block; */
+/* vを消すと変更される */
+#top-na ul{
+  text-align: center;
+  padding-left: 0;
+}
+#top-na ul li{
+  display: inline-block;
+  vertical-align: middle;
+  border-left: solid 1px #FFF;
+  border-right: solid 1px #FFF;
+}
+#top-na ul li + li{
+  border-left: 0;
+  border-right: solid 1px #fff;
+}
+#top-na li a{
+  padding: 8px 22px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+/* フッター */
+footer p{
+  text-align: center;
+}
+
+
+/* メインコンテンツ */
+form input{
+  padding: 3px;
+  margin: 10px;
+}
+
+
+/* エラー時表示 */
+.err input{
+  background-color: #f5aab5;
+}
+form{
+  margin: 30px 0;
+}
+.err_ra{
+  background-color: #f5aab5;
+}
+
+/*========================================
+  その他
+========================================*/
+.msg-slide{
+  position: fixed;
+  top: 0;
+  width:100%;
+  height:40px;
+  background: rgba(122,206,230,0.6);
+  text-align: center;
+  font-size:16px;
+  line-height: 40px;
+}
+.msg-slide p{
+  color: #000;
+}
+
+
+
+/* レスポンシブなんだけど、こっちがPC用のサイドバー表示。スマホファースト */
+@media(min-width:600px){
+
+  .main_contents{
+    display: -webkit-flex;/*Safari用？*/
+    display: flex;
+  }
+  #main,#sidebar{
+
+  }
+  #main{
+    width: calc(100% - 300px);
+
+  }
+  #sidebar{
+    display: inline-grid;
+    height: 170px;
+  }
+  #sidebar a{
+    padding: 5px;
+  }
+
+}
+
+
+
+
+
+
+
